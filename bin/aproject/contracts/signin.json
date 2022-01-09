@@ -1,0 +1,209 @@
+{
+    "contractName": "signin",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "getName",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getName\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/Polinomy/Desktop/Ethereum/aproject/contracts/market.sol\":\"signin\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/Polinomy/Desktop/Ethereum/aproject/contracts/market.sol\":{\"keccak256\":\"0xc01bf9e85ab4ac732c2c1c25eb3ef13f4815a04e502e8e21f2d9e56e1bf40e3f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6b546c1c7e922399f8dc948b2572e1131acf1f1b35a504cddf6436e6f68659db\",\"dweb:/ipfs/QmYuHkLGDp2PSsSH1y1Xo6VS88wSeNvjfP53S6CQSiQUH1\"]}},\"version\":1}",
+    "bytecode": "60c060405260046080819052630848a4a960e31b60a09081526100259160009190610038565b5034801561003257600080fd5b5061010c565b828054610044906100d1565b90600052602060002090601f01602090048101928261006657600085556100ac565b82601f1061007f57805160ff19168380011785556100ac565b828001600101855582156100ac579182015b828111156100ac578251825591602001919060010190610091565b506100b89291506100bc565b5090565b5b808211156100b857600081556001016100bd565b600181811c908216806100e557607f821691505b6020821081141561010657634e487b7160e01b600052602260045260246000fd5b50919050565b6101a68061011b6000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c806317d7de7c14610030575b600080fd5b61003861004e565b60405161004591906100e0565b60405180910390f35b60606000805461005d90610135565b80601f016020809104026020016040519081016040528092919081815260200182805461008990610135565b80156100d65780601f106100ab576101008083540402835291602001916100d6565b820191906000526020600020905b8154815290600101906020018083116100b957829003601f168201915b5050505050905090565b600060208083528351808285015260005b8181101561010d578581018301518582016040015282016100f1565b8181111561011f576000604083870101525b50601f01601f1916929092016040019392505050565b600181811c9082168061014957607f821691505b6020821081141561016a57634e487b7160e01b600052602260045260246000fd5b5091905056fea2646970667358221220467c76159fb9b4423a38a41cbe401013b62b2220e53c4fd9f0cf0aa29447780864736f6c634300080b0033",
+    "deployedBytecode": "608060405234801561001057600080fd5b506004361061002b5760003560e01c806317d7de7c14610030575b600080fd5b61003861004e565b60405161004591906100e0565b60405180910390f35b60606000805461005d90610135565b80601f016020809104026020016040519081016040528092919081815260200182805461008990610135565b80156100d65780601f106100ab576101008083540402835291602001916100d6565b820191906000526020600020905b8154815290600101906020018083116100b957829003601f168201915b5050505050905090565b600060208083528351808285015260005b8181101561010d578581018301518582016040015282016100f1565b8181111561011f576000604083870101525b50601f01601f1916929092016040019392505050565b600181811c9082168061014957607f821691505b6020821081141561016a57634e487b7160e01b600052602260045260246000fd5b5091905056fea2646970667358221220467c76159fb9b4423a38a41cbe401013b62b2220e53c4fd9f0cf0aa29447780864736f6c634300080b0033",
+    "sourceMap": "84:28:0:-:0;61:145;84:28;;61:145;84:28;;;-1:-1:-1;;;84:28:0;;;;;;-1:-1:-1;;84:28:0;;:::i;:::-;;61:145;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;61:145:0;;;-1:-1:-1;61:145:0;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;14:380:1;93:1;89:12;;;;136;;;157:61;;211:4;203:6;199:17;189:27;;157:61;264:2;256:6;253:14;233:18;230:38;227:161;;;310:10;305:3;301:20;298:1;291:31;345:4;342:1;335:15;373:4;370:1;363:15;227:161;;14:380;;;:::o;:::-;61:145:0;;;;;;",
+    "deployedSourceMap": "61:145:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;119:84;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;159:13;191:4;184:11;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;119:84;:::o;14:597:1:-;126:4;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:1;294:140;308:6;305:1;302:13;294:140;;;403:14;;;399:23;;393:30;369:17;;;388:2;365:26;358:66;323:10;;294:140;;;452:6;449:1;446:13;443:91;;;522:1;517:2;508:6;497:9;493:22;489:31;482:42;443:91;-1:-1:-1;595:2:1;574:15;-1:-1:-1;;570:29:1;555:45;;;;602:2;551:54;;14:597;-1:-1:-1;;;14:597:1:o;616:380::-;695:1;691:12;;;;738;;;759:61;;813:4;805:6;801:17;791:27;;759:61;866:2;858:6;855:14;835:18;832:38;829:161;;;912:10;907:3;903:20;900:1;893:31;947:4;944:1;937:15;975:4;972:1;965:15;829:161;;616:380;;;:::o",
+    "sourcePath": "c:/Users/Polinomy/Desktop/Ethereum/aproject/contracts/market.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.11+commit.d7f03943"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/Polinomy/Desktop/Ethereum/aproject/contracts/market.sol",
+        "exportedSymbols": {
+            "signin": [
+                13
+            ]
+        },
+        "id": 14,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".11"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "33:24:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "signin",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 13,
+                "linearizedBaseContracts": [
+                    13
+                ],
+                "name": "signin",
+                "nameLocation": "70:6:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "id": 4,
+                        "mutability": "mutable",
+                        "name": "name",
+                        "nameLocation": "99:4:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 13,
+                        "src": "84:28:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "84:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "42452548",
+                            "id": 3,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "106:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_d5ba452a0dc3d9fc9fbb20f7f4b7ac17e2efc29172491b9ebe04331f701e9107",
+                                "typeString": "literal_string \"BE%H\""
+                            },
+                            "value": "BE%H"
+                        },
+                        "visibility": "private"
+                    },
+                    {
+                        "body": {
+                            "id": 11,
+                            "nodeType": "Block",
+                            "src": "173:30:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 9,
+                                        "name": "name",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 4,
+                                        "src": "191:4:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "functionReturnParameters": 8,
+                                    "id": 10,
+                                    "nodeType": "Return",
+                                    "src": "184:11:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "17d7de7c",
+                        "id": 12,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "getName",
+                        "nameLocation": "128:7:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 5,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "135:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 8,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 7,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 12,
+                                    "src": "159:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 6,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "159:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "158:15:0"
+                        },
+                        "scope": 13,
+                        "src": "119:84:0",
+                        "stateMutability": "view",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 14,
+                "src": "61:145:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "33:173:0"
+    },
+    "functionHashes": {
+        "getName()": "17d7de7c"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "84400",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "getName()": "infinite"
+        }
+    }
+}
